@@ -61,7 +61,7 @@ This project synchronizes movie ratings between Moviepilot and IMDb accounts by 
 ### Phase 1: Initial Research and Setup
 - [ ] **Task 1**: Research Website Structures
   - **Goal**: Understand the HTML structure of Moviepilot and IMDb rating pages.
-- [ ] **Task 2**: Setup Project Environment
+- [X] **Task 2**: Setup Project Environment
   - **Goal**: Set up your development environment with necessary libraries.
 
 ### Phase 2: Web Scraping and Data Extraction
