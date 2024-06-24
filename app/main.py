@@ -1,5 +1,5 @@
 import selenium as se
-import beautifulsoup4 as be
+from bs4 import BeautifulSoup as BS
 import requests as re
 import pandas as pd
 

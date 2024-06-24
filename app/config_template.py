@@ -6,7 +6,9 @@ IMDB_PASSWORD = 'your_imdb_password'
 
 
 #links
-MOVIEPILOT_RATED_MOVIES="https://www.moviepilot.de/users/themoviemonster/rated/movies"
+MOVIEPILOT_BASE_URL = "https://www.moviepilot.de/"
+MOVIEPILOT_RATED_MOVIES= f"https://www.moviepilot.de/users/{MOVIEPILOT_USERNAME}/rated/movies"
+MOVIEPILOT_RATED_MOVIES_BASE_URL = f"https://www.moviepilot.de/users/{MOVIEPILOT_USERNAME}/rated/movies?page=" #Needs only page number
 #A 100 Movies
 #tbody
 
