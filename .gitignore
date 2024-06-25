@@ -5,7 +5,7 @@ web_examples/
 venv/
 
 # Data files
-data/*.csv
+
 data/sync_log.txt
 .env
 config.py
