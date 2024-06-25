@@ -27,6 +27,11 @@ This project synchronizes movie ratings between Moviepilot and IMDb accounts by 
     pip install -r requirements.txt
     ```
 
+4. Intsall playwright
+    ```sh
+    playwright install
+    ```
+
 ### Configuration
 
 #### Using Environment Variables
