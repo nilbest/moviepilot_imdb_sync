@@ -4,9 +4,12 @@ web_examples/
 # Virtual Environment
 venv/
 
+*__pycache__*
+
 # Data files
 
 data/sync_log.txt
 .env
 config.py
 moviepilot_movies.html
+*.html

@@ -17,9 +17,9 @@ MOVIEPILOT_RATED_SERIES= f"https://www.moviepilot.de/users/{MOVIEPILOT_USERNAME.
 #tbody
 
 main_path=str(pathlib.Path(__file__).parent.resolve()).strip("app")
-app_path=str(main_path)+"app\\"
-data_path=str(main_path)+"data\\"
-tests_path=str(main_path)+"tests\\"
+app_path=pathlib.PurePath(main_path,"app")
+data_path=pathlib.PurePath(main_path,"data")
+tests_path=pathlib.PurePath(main_path,"tests")
 
 
 #href="/users/themoviemonster/rated/movies?page=2" for new pages
